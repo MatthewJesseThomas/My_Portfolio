@@ -1,0 +1,112 @@
+ /*Select All Elements  */
+ *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100vw;
+}
+header, footer {
+    background-color: darkgray;
+}
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #555;
+}
+ .logo {
+    width: 9em;
+ }
+/* Place the menu to the right of the page. */
+.menu {
+    /* margin: auto 0; */
+    align-items: center;
+    margin-top: 5px 10px 0;
+    display: flex;
+}
+.menu-list{
+    display: inline-flex;
+    list-style: none;
+    color: plum;
+}
+.menu-list li  {
+    padding: 0 10px;
+}
+.menu-list li a {
+    color:plum;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+.menu-list li a:hover {
+    color: bisque;
+    background-color: #777;
+
+}
+
+ .h3-font {
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+ }
+
+ /* pasted */
+
+ /* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+/* main */
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+/* home */
+#home {
+    background-color: rgba(106, 115, 92, .7);
+}
+.wrapper {
+    min-height: 100vh;
+    align-content: center;
+}
+.wrapper img{
+    display: block;
+    margin: 15px auto;
+    width: 500px;
+    height: 600px;
+}
+.wrapper p {
+    text-align: center;
+}
+main{
+    position: absolute;
+    top: 143px;
+}
+main{
+    background-color:  rgba(106, 115, 92, .7);;
+}
+.container {
+    display: block;
+    margin: 15px auto;
+    width: 220px;
+    clear: both;
+}
+.container input {
+    width: 100%;
+    clear: both;
+}
+#resume {
+        text-align: center;
+}
+#contact {
+    text-align: center;
+}

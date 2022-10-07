@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <img style="width:500px ;" src="https://i.postimg.cc/qB867fYF/Urban-Dystopian-City.jpg" alt="Logo">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <img class="logo" src="https://i.postimg.cc/Bn3V4RYq/viking-sword-logo-odal-rune-small-runes-234700539.jpg" alt="Logo">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#home">Home</a></li>|
+                <li><a href="#resume">Resume</a></li>|
+                <li><a href="#project">Project</a></li>|
+                <li><a href="#contact">Contact</a></li>|
             </ul>
         </nav>
     </header> 
@@ -22,26 +23,67 @@
             <!--Home-->
             <section id="home">
                 <h2>Home</h2>
-                <div>
-                    <h4>Matthew Jesse Thomas</h4>
-                    <img style="width:500px ;" src="https://i.postimg.cc/fWKztHR5/Demon-Art.jpg" alt="Matthew profile">
-                    <p>Programmer and Developer</p>
+                <div class="wrapper">
+                    <h3 class="h3-font"><strong>Matthew Jesse Thomas</strong></h3>
+                    <img src="https://i.postimg.cc/fWKztHR5/Demon-Art.jpg" alt="Matthew profile">
+                    <p><strong>Aspiring Developer | Aspiring Web Designer</strong></p>
                 </div>
             </section>
             <!--Resume-->
             <section id="resume">
-                <h2>Resume</h2> 
-
+                <h2>Resume</h2>
+                <h3><strong>EDUCATION</strong></h3>
+                <p><strong>
+                Matriculated:@Westridge Secondary High School 
+                </strong></p><br>
+                <p><strong>
+                Year Of Matriculation:2017
+                </strong></p><br>
+                <p><strong>
+                Matriculated With:Bachelors 
+                </strong></p><br>
+                <h3><strong>EXPERIENCE</strong></h3>
+                <p><strong>
+                Retail in Sales <br> Mechanical Engineering <br>
+                </strong></p>
             </section>
             <!--Project-->
             <section id="project">
                 <h2>Project</h2>
-
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eius a sapiente facilis repudiandae tenetur, impedit amet odit dolore dicta illo sunt officia recusandae repellat eligendi quam est rem optio?
+                    </p>
             </section>
             <!--Contact-->
             <section id="contact">
                 <h2>Contact</h2>
-
+            <div class="container">
+                <form action="https://formspree.io/f/mwkzbykn" method="POST" target="blank">
+                    <div>
+                        <label for="#firstname">Name</label>
+                        <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label for="#firstname">Surname</label>
+                        <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+                    </div>
+                    <div>
+                        <label for="#firstname">Message</label>
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+            </div>
+            <ul>
+                <li><strong>Telephone:0213713910</strong></li>
+                <br>
+                <li><strong>Cellphone:0827294648</strong></li>
+                <br>
+                <li><strong>owlsaintgermain@gmail.com</strong></li>
+                <br>
+            </ul>
             </section>
         </main>   
 </body>

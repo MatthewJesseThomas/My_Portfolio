@@ -28,10 +28,10 @@ header {
     background-color: #555;
     box-shadow: 0 0 5px 2px black;
 }
- .logo {
+.logo {
     width: 9em;
     scale: 1.055;
- }
+}
 .logo:hover {
     scale: 1.13;
 }
@@ -45,13 +45,13 @@ header {
 .menu-list{
     display: inline-flex;
     list-style: none;
-    color: plum;
+    color: darkslategray;
 }
 .menu-list li  {
     padding: 0 10px;
 }
 .menu-list li a {
-    color:plum;
+    color:darkslategray;
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
@@ -128,7 +128,11 @@ h2 {
     padding-top: 20px;
 }
 .menu-list li a:hover{
-    background-color: plum;
+    background-color: darkslategray;
     color: #555;
     border-radius: 5px;
+}
+#submit:hover{
+    border-color: darkslateblue;
+    scale: 15px;
 }

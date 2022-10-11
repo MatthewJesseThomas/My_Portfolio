@@ -122,6 +122,8 @@ main{
 #contact {
     text-align: center;
     background-color: lightsteelblue;
+}
+section {
     height: calc(100vh - 178px);
 }
 h2 {

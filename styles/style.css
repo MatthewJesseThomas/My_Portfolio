@@ -5,12 +5,18 @@ padding: 0;
 box-sizing: border-box;
 font-family: sans-serif;
 }
+.contact-body{
+    overflow: hidden;
+}
 /* header, main, footer */
 header, main, footer {
     min-width: 100vw;
 }
 header, footer {
     background-color: darkgray;
+}
+footer {
+    
 }
 /* Header */
 header {
@@ -20,10 +26,15 @@ header {
     display: inline-flex;
     justify-content: space-between;
     background-color: #555;
+    box-shadow: 0 0 5px 2px black;
 }
  .logo {
     width: 9em;
+    scale: 1.055;
  }
+.logo:hover {
+    scale: 1.13;
+}
 /* Place the menu to the right of the page. */
 .menu {
     /* margin: auto 0; */
@@ -72,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* home */
 #home {
-    background-color: rgba(106, 115, 92, .7);
+    background-color: lightsteelblue;
 }
 .wrapper {
     min-height: 100vh;
@@ -83,16 +94,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px auto;
     width: 500px;
     height: 600px;
+    box-shadow: 0 0 6px 2px black;    
 }
 .wrapper p {
     text-align: center;
 }
 main{
-    position: absolute;
-    top: 143px;
-}
-main{
-    background-color:  rgba(106, 115, 92, .7);;
+    margin-top: 148px;
+    background-color:  lightsteelblue;
 }
 .container {
     display: block;
@@ -100,13 +109,26 @@ main{
     width: 220px;
     clear: both;
 }
-.container input {
+.container input, .container textarea{
     width: 100%;
     clear: both;
+    box-shadow: 0 0 5px 0px black;
 }
+
 #resume {
-        text-align: center;
+    text-align: center;
+    background-color: lightsteelblue;
 }
 #contact {
     text-align: center;
+    background-color: lightsteelblue;
+    height: calc(100vh - 178px);
+}
+h2 {
+    padding-top: 20px;
+}
+.menu-list li a:hover{
+    background-color: plum;
+    color: #555;
+    border-radius: 5px;
 }

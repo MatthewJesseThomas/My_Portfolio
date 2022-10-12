@@ -15,9 +15,7 @@ header, main, footer {
 header, footer {
     background-color: darkgray;
 }
-footer {
-    
-}
+
 /* Header */
 header {
     position: fixed;

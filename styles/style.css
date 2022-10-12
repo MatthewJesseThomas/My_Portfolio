@@ -62,7 +62,10 @@ header {
     background-color: #777;
 
 }
-
+i {
+    background-color: darkgray;
+    font-size: 1em;
+}
  .h3-font {
     font-size: 25px;
     font-style: italic;
@@ -84,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 /* home */
 #home {
     background-color: lightsteelblue;
+    min-height: 200vh;
 }
 .wrapper {
     min-height: 100vh;
